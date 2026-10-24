@@ -1,6 +1,10 @@
 # ik-flow
-针对IKUAIOS V4.0的分流插件，还在疯狂进化中
-还没整理好，内测企鹅群：808942972
+针对IKUAIOS V4.0的分流插件，还在疯狂进化中。
+
+类SSR-Plus+分流: mihomo TUN透明代理+国内直连分流(GEOSITE/GEOIP)+面板。透明分流: fake-ip 198.18.0.1/16, 需在爱快加静态路由 198.18.0.0/16 下一跳 172.30.0.10。管理地址 http://你的爱快LANIP:9090/ui (宿主端口) 或 http://172.30.0.10:9090/ui, 默认密钥 ikflow-admin。订阅: 表单填链接(含特殊符号被清空时改填base64编码)或数据目录放sub.url。授权版需激活码: 安装后打开 9090/ui 查看设备码, 未激活时仅提供激活页。激活后显式代理172.30.0.10:7891可用。
+
+
+还没整理好要开源的文件，内测企鹅群：808942972
 
 
 <img width="2010" height="1433" alt="简易UI界面" src="https://github.com/user-attachments/assets/f5c745ce-21b1-4de2-b1cd-abc5408cefb6" />
