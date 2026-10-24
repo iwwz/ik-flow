@@ -2,6 +2,9 @@
 针对IKUAIOS V4.0的分流插件，还在疯狂进化中
 还没整理好，内测企鹅群：808942972
 
+
+<img width="2010" height="1433" alt="简易UI界面" src="https://github.com/user-attachments/assets/f5c745ce-21b1-4de2-b1cd-abc5408cefb6" />
+
 v1.3.7 测试版:
 - 修复简版面板 204 空响应导致更新订阅/切换节点/切换全局卡住
 - 测速/更新订阅增加超时与进度提示, 不再无限等待
