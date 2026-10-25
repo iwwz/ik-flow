@@ -10,8 +10,21 @@
 
 还没整理好要开源的文件，内测企鹅群：808942972
 
+<img width="1901" height="1315" alt="7959895c-853f-4cd4-925d-6d73111f195f" src="https://github.com/user-attachments/assets/32953b64-cade-498b-b175-dd735b46995d" />
+<img width="1974" height="1441" alt="c1697cb7-daef-40ed-b2a3-613c8df71609" src="https://github.com/user-attachments/assets/b2c89fab-7ec3-4242-a8a1-d512467e74e1" />
+<img width="2044" height="1464" alt="725a15f4-9c98-4fc7-965e-d5ca96fe954e" src="https://github.com/user-attachments/assets/893e454b-df12-40d7-a6d4-95eca989b962" />
 
-<img width="2010" height="1433" alt="简易UI界面" src="https://github.com/user-attachments/assets/f5c745ce-21b1-4de2-b1cd-abc5408cefb6" />
+
+
+v1.4.23:
+- 一键检测优化: 国内直连项按 fake-ip 设计修正判定(国内域名本就不经过插件); TG 项改为信息性显示; 透明分流项增加 DNS 缓存残留的判断技巧
+
+v1.4.7 – v1.4.22 更新汇总:
+- 爱快路由自动配置: /ui 输入管理员账号密码, 自动添加/校准 Telegram 与透明分流静态路由(报文信封/字段集/掩码格式/名称唯一性多轮真机适配, 参数自适应, 失败自动重试, 已有条目自动刷新防失效)
+- 激活页支持导入配置备份: 重装后一步完成 订阅/规则/爱快配置/授权 恢复与自动激活, 无需重新发码
+- /ui 一键检测: 插件体检(mihomo/TUN/DNS/端口/订阅/节点测速) + 本机分流链路/IPv6 检测
+- /ui 配置备份/恢复: 订阅+自定义规则+爱快配置+授权 一键导出导入
+- Telegram 分流路由由插件自动维护(真机验证覆盖 TG 全部机房); 面板显示授权状态与自动维护说明
 
 v1.3.14:
 - 修复配置生成脚本换行符导致容器内无法执行, 面板 9090 与 TUN 不启动
